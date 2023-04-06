@@ -49,41 +49,64 @@
     color: #141313;
     padding: 30px;
   }
+/* Hero  */
 
-  #search-tour{
-    border-radius: 5px;
-    margin-left: 100px;
-    height: 50px;
-    width: 80%;
-    padding-top: 50px;
+/*-----------------------------------*\
+ * #HERO
+\*-----------------------------------*/
 
-  }
-  #form-inputs{
-    height: 50px;
-    border-radius: 20px;
-  }
-  #btn-inputs{
-    height: 50px;
-    border-radius: 20px;
-  }
-  .carousel img{
-    width: 100%;
-    /* margin-left: 170px; */
-    border-radius: 20px;
-    padding-top: 40px;
-    
-  }
-  .top-left {
-    position: absolute;
-    top: 8px;
-    left: 16px;
-    padding-top: 400px;
-    margin-left: 170px;
-    font-weight: bolder;
-    font-size: 35px;
-    opacity: 100%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
+.hero {
+  background-image: url("./images/couresel.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: hsla(0, 0%, 0%, 0.7);
+  background-blend-mode: overlay;
+  display: grid;
+  place-items: center;
+  min-height: 600px;
+  text-align: center;
+  padding-top: 90px;
+}
+
+.hero-title { margin-bottom: 20px;
+color: white;
+text-decoration: double;
+font-style:oblique;
+font-size: 50px;
+text-transform: uppercase; }
+
+.hero-text {
+  color: white;
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+.btn-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  
+}
+.btn {
+width: 160px;
+height: 60px;
+border-radius: 50px;
+}
+.btn-primary{
+  background-color: blue;
+  color: white;
+  font-size: 15px;
+}
+.btn-secondary{
+  background-color: transparent;
+  color: white;
+  font-size: 15px;
+
+}
+
   #coursel-h{
     position: absolute;
     top: 8px;
@@ -257,11 +280,10 @@ text-align: center;
 
 #top-d{
   font-weight: bold;
-  text-transform: capitalize;
   font-size: x-large;
  text-align: left;
   margin-left: 70px;
-  padding-top: 30px;
+  padding-top: 20px;
   text-overflow: initial;
 }
 
@@ -426,28 +448,6 @@ text-align: center;
 	margin-right: 3px;
 	margin-bottom: 5px;
 }
-
-/* about section */
-#about{
-  margin-left: 50px;
-  padding-top: 50px;
-  display: flex;
-}
-
-#about-h2{
- font-weight: bold;
- font-style: italic;
- margin-left: 90px;
- text-decoration: double;
-}
-
-#about  p{
- font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-/* #about img{
-  float: right;
-} */
-
 /* booking button */
 .book-tour-btn {
   display: block;
@@ -465,3 +465,192 @@ text-align: center;
 .book-tour-btn:hover {
   background-color: #0c7cd5;
 }
+
+.about-container{
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr  1fr;
+  column-gap: 5px;
+  padding-top: 60px;
+}
+img{
+  max-width:100%;
+  max-height: 100%;
+}
+
+.about-text p{
+  font-size: 20px;
+  line-height: 30px;
+  padding-top: 20px;
+  margin-right: 30px;
+}
+.about-text h1{
+  text-align: center;
+    background-repeat: repeat-x;
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/78779/star.svg");
+    background-position: 0 1.06em;
+    background-size: 10px ;
+  }
+  .subscribe{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr  1fr;
+    column-gap: 5px;
+    padding-top: 60px;
+    background-color: #2c3e50;
+  }
+  .sub-text{
+    font-size: medium;
+    color: white;
+    line-height: 30px;
+    margin-left: 50px;
+    margin-bottom: 40px;
+  }
+  .sub-button{
+    font-size: medium;
+    color: white;
+    line-height: 30px;
+    margin-left: 50px;
+    margin-bottom: 40px;
+  }
+#subscribe{
+  width: 90px;
+  height: 30px;
+  background-color: #0c7cd5;
+  color: white;
+  border-radius: 9px;
+  font-size: 20px;
+
+}
+#subscibe{
+  width: 190px;
+  height: 30px;
+  background-color: white;
+  
+}
+  .modal {
+    display: grid;
+    position: relative;
+    margin-left: 60px;
+    top: 23px;
+    width: 70%; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(250, 248, 248, 0.4); 
+  }
+  
+  .close {
+    color: #0f0e0e;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .form-input{
+    line-height: 30px;
+    border-radius: 5px;
+    background-color: #2196F3;
+    font-size: medium;
+    
+  }
+ #feedback button{
+  width: 50px;
+
+  }
+  #myBtn{
+    width: 100px;
+    height: 30px;
+    background-color: #0c7cd5;
+    border-radius: 8px;
+    font-size: medium;
+    color: white;
+  }
+  /* adnventure styles */
+  
+  #wrapper {
+   
+    margin-left: 70px;
+  }
+  #wrapper h3{
+    font-size: 30px;
+    padding-left: 70px;
+    padding-top: 80px;
+    text-align: justify;
+    
+  }
+  .card-style{
+    margin:40px 12px;
+    width:360px;
+    height:240px;
+    background-color:#ffffff;
+    border-bottom:4px solid #2196f3;
+    border-radius:3px;
+    box-shadow: 0px 1px 2px rgba(0,0,0,0.11);
+    overflow:hidden;
+    float:left;
+    transition:.25s;
+    cursor:pointer;
+  }
+  .card:hover {
+    margin-top:35px;
+    transition:.125s;
+  }
+  .card-style img {
+    width: auto;
+    height:220px;
+  }
+  .content {
+    margin-top:-50px;
+  }
+  .date {
+    font-family:'Roboto';
+    width:60px;
+    border-right:1px dashed #c6cacd;
+    float:left;
+    height:70px;
+    text-align:center;
+    color:#495f71;
+    padding:9px 0;
+  }
+  .numeric {
+    font-size:18px;
+  }
+  .month {
+    font-size:11px;
+    text-transform:uppercase;
+    display:block;
+    font-weight:500;
+    letter-spacing:0.9px;
+    line-height:12px;
+  }
+  .info {
+    float:left;
+    padding:9px 18px;
+  }
+  .trip-name {
+    font-family:'Roboto';
+    font-weight:100;
+    font-size: 13px;
+    color:#495f71;
+  }
+  .trip-contains {
+    display:block;
+    font-size:16px;
+    padding:6px 0;
+  }
+  .trip-contains i {
+    padding-right:3px;
+    color:#7DCD75;
+  }
+  i.draft {
+    color:#c6cacd;
+  }
+  .clip-polygon {
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 167px, 53px 167px, 60px 80%, 67px 167px, 0% 167px);
+  }
+  
