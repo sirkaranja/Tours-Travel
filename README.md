@@ -26,6 +26,7 @@ Tripero is tour & travel mini web app , <br /> built using HTML, CSS, and JavaSc
 Before you begin, ensure you have met the following requirements:
 
 * [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
+*Json server must be installed
 
 ### Run Locally
 
@@ -45,7 +46,7 @@ git clone git@github.com:sirkaranja/Tours-Travel.git
 
 ### Contact
 
-If you want to contact with me you can reach me at [Twitter](https://www.twitter.com/codewithsadee).
+If you want to contact with me you can reach me at [Email](sirkaranja12@gmail.com).
 
 ### License
 
