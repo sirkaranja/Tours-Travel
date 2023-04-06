@@ -1,5 +1,5 @@
 const tourlist = document.getElementsByClassName('container-deal');
-fetch("http://localhost:3000/tours")
+fetch("https://github.com/sirkaranja/Tours-Travel/blob/main/db.json/tours")
 .then(response => response.json())
 .then(data => {
   // loop through the tours array and create a div for each tour
@@ -61,7 +61,7 @@ window.onclick = function(event) {
   addfeedback(feedbackObj);
 }
  function addfeedback(feedbackObj) {
-fetch('http://localhost:3000/feedback', {
+fetch('https://github.com/sirkaranja/Tours-Travel/blob/main/db.json/feedback', {
   method: 'POST',
   headers: { 'Content-Type': 'application/json' },
   body: JSON.stringify(feedbackObj)
@@ -73,63 +73,12 @@ fetch('http://localhost:3000/feedback', {
 });
 
 
-// booking button click
-const bookingButton = document.getElementById('love-emoji');
-
-bookingButton.addEventListener('click', () => {
-  // Add code here to update the JSON file with the booking information
-  console.log('User has booked');
-});
 
 
 
 
-    // Get the filter button and input
-    const filterBtn = document.getElementById('filterBtn');
-    const filterInput = document.getElementById('filterInput');
 
-    // Add event listener to filter button
-    filterBtn.addEventListener('click', function() {
-      const destination = filterInput.value.toLowerCase();
-
-      // Filter tours by destination
-      const filteredTours = tours.filter(tour => tour.destination.toLowerCase().includes(destination));
-
-      // Clear the tour list
-      const tourList = document.getElementById('tourList');
-      tourList.innerHTML = '';
-
-      // Display filtered tours in HTML
-      filteredTours.forEach(tour => {
-        const tourItem = document.createElement('div');
-        tourItem.classList.add('tour');
-
-        const tourImage = document.createElement('img');
-        tourImage.setAttribute('src', tour.tour_image);
-        tourImage.setAttribute('alt', tour.title);
-
-        const tourTitle = document.createElement('h3');
-        tourTitle.innerText = tour.title;
-
-        const tourPrice = document.createElement('p');
-        tourPrice.innerText = tour.price;
-
-        const tourDestination = document.createElement('p');
-        tourDestination.innerText = tour.destination;
-
-        const tourDescription = document.createElement('p');
-        tourDescription.innerHTML = tour.description;
-
-        tourItem.appendChild(tourImage);
-        tourItem.appendChild(tourTitle);
-        tourItem.appendChild(tourPrice);
-        tourItem.appendChild(tourDestination);
-        tourItem.appendChild(tourDescription);
-
-        tourList.appendChild(tourItem);
-      });
-    });
-
+     
 
 
 
