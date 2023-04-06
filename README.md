@@ -52,7 +52,7 @@ Copy code Start the server by running live server server.<br>
 
 ### Contact
 
-If you want to contact with me you can reach me at [Email](sirkaranja12@gmail.com).
+You can reach me at [Email](sirkaranja12@gmail.com).
 
 ### License
 
