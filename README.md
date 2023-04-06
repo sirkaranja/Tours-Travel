@@ -42,7 +42,13 @@ Windows:
 
 ```bash
 git clone git@github.com:sirkaranja/Tours-Travel.git
+
 ```
+### installation
+Clone the repository to your local machine. 
+Install json server run json-server --watch db.json 
+Copy code Start the server by running live server server.
+ Navigate to http://localhost:3000 in your browser to use the application.
 
 ### Contact
 
