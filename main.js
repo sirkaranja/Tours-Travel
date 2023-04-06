@@ -9,7 +9,6 @@ fetch("http://localhost:3000/tours")
     tourDiv.innerHTML = `
      
       <img src="${tour.tour_image}" id="tour-image " alt="${tour.title}">
-     <button  class="love-button"><i class="fa fa-heart"></i> </button>
       <p class="love-emoji"> ${tour.like}</p>
       <h3 id="tour-title ">${tour.title}</h3>
       <p id="tour-price"> ${tour.price}</p>
@@ -19,8 +18,31 @@ fetch("http://localhost:3000/tours")
     `;
     // append the tour div to the container-deal div
     document.querySelector('.container-deal').appendChild(tourDiv);
+    //event listener fo the love button
+    
+   
   });
- 
+ //modal dialog
+ var modal = document.getElementById("myModal");
+var btn = document.getElementById("myBtn");
+var span = document.getElementsByClassName("close")[0];
+
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+
+
+
  //from form
  const form = document.querySelector('#feedback');
  form.addEventListener('submit',handleSubmit);
