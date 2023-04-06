@@ -4,9 +4,9 @@
 
   <h2>Tripero- Travel website</h2>
 
-  Tourly is fully responsive travel website, <br />Responsive for all devices, built using HTML, CSS, and JavaScript.
+Tripero is tour & travel mini web app , <br /> built using HTML, CSS, and JavaScript.
 
-  <a href="https://codewithsadee.github.io/tourly/"><strong>➥ Live Demo</strong></a>
+  <a href="https://sirkaranja.github.io/Tours-Travel/"><strong>➥ Live Demo</strong></a>
 
 </div>
 
@@ -14,7 +14,8 @@
 
 ### Demo Screeshots
 
-![Tripero Desktop Demo](./readme-images/desktop.png "Desktop Demo")
+![Tripero Desktop Demo](./images/1.png "Desktop Demo")
+![Tripero Desktop Demo](./images/2.png "about demo")
 
 ### Prerequisites
 
