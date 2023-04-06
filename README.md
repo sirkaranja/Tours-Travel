@@ -14,8 +14,8 @@ Tripero is tour & travel mini web app , <br /> built using HTML, CSS, and JavaSc
 
 ### Demo Screeshots
 
-![Tripero Desktop Demo](./images/1.png "Desktop Demo")
-![Tripero Desktop Demo](./images/2.png "about demo")
+![Tripero Desktop Demo](images/1.png "Desktop Demo")
+![Tripero about Demo](images/2.png "about demo")
 
 ### Prerequisites
 
@@ -25,18 +25,18 @@ Before you begin, ensure you have met the following requirements:
 
 ### Run Locally
 
-To run **Tourly** locally, run this command on your git bash:
+To run **Tripero** locally, run this command on your git bash:
 
 Linux and macOS:
 
 ```bash
-sudo git clone https://github.com/codewithsadee/tourly.git
+sudo git clone git@github.com:sirkaranja/Tours-Travel.git
 ```
 
 Windows:
 
 ```bash
-git clone https://github.com/codewithsadee/tourly.git
+git clone git@github.com:sirkaranja/Tours-Travel.git
 ```
 
 ### Contact
@@ -45,4 +45,6 @@ If you want to contact with me you can reach me at [Twitter](https://www.twitter
 
 ### License
 
-This project is **free to use** and does not contains any license.
+ MIT License
+
+Copyright (c) 2023 Daniel Karanja
