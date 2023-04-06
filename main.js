@@ -1,5 +1,5 @@
 const tourlist = document.getElementsByClassName('container-deal');
-fetch("db.json/tours")
+fetch("http://localhost:3000/tours")
 .then(response => response.json())
 .then(data => {
   // loop through the tours array and create a div for each tour
@@ -61,7 +61,7 @@ window.onclick = function(event) {
   addfeedback(feedbackObj);
 }
  function addfeedback(feedbackObj) {
-fetch('db.json/feedback', {
+fetch('http://localhost:3000/feedback', {
   method: 'POST',
   headers: { 'Content-Type': 'application/json' },
   body: JSON.stringify(feedbackObj)
