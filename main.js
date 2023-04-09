@@ -10,11 +10,11 @@ fetch("http://localhost:3000/tours")
      
       <img src="${tour.tour_image}" id="tour-image " alt="${tour.title}">
       <p class="love-emoji"> ${tour.like}</p>
-      <h3 id="tour-title ">${tour.title}</h3>
-      <p id="tour-price"> ${tour.price}</p>
+      <h3 class="tour-title ">${tour.title}</h3>
       <p class="tour-destination" >${tour.destination}</p>
       <p class="tour-description ">${tour.description}</p>
-      <button class="book-tour-btn">Book Now</button>
+      <p id="tour-price"> ${tour.price}</p>
+      <button class="book-tour-btn" onclick="fireSweetAlert()">Book Now</button>
     `;
     // append the tour div to the container-deal div
     document.querySelector('.container-deal').appendChild(tourDiv);
