@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tours & Travel Agency</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -19,6 +20,7 @@
   <!-- banner end -->
   <!-- navigation bar -->
   <div class="header">
+
     <nav>
       <ul>
         <li><a href="#">Destinations</a>
@@ -27,9 +29,9 @@
                     <li><a href="#">Europe</a></li>
                     <li><a href="">North America</a></li> -->
         </li>
-        <li><a href="#wrapper">Adventure Styles</a></li>
+        <li><a href="#home">Home</a></li>
         <li><a href="#top-d">Deals</a></li>
-        <li><a href="#about-us">ABout</a></li>
+        <li><a href="#about-us">About</a></li>
         <li><a href="">Contact</a></li>
       </ul>
     </nav>
@@ -52,12 +54,11 @@
         <div class="btn-group">
           <button class="btn btn-primary">Learn more</button>
 
-          <button class="btn btn-secondary">Book now</button>
+          <button class="btn btn-secondary" onclick="fireSweetAlert()">Book now</button>
         </div>
 
       </div>
-    </section>
-    </div>
+    </section>  </div>
   <div class="main-card">
     <div class="card-container">
       <div class="card">
@@ -129,8 +130,22 @@
     <h6 id="top-d">Top Deals</h6>
 
     <div class="container-deal">
+      <div style="height: 400px;">
+      
+      </div>
+      <script>
+    
+        function fireSweetAlert() {
+            Swal.fire(
+                'Thank you for Booking!',
+                'with Tripero Safaris',
+                'success'
+            )
+        }
+    
+      </script>
 
-      <!-- <h5 id="top-d">Top Deals</h5> -->
+      <!-- <h5 id="top-d">Top Deals</h5> -->  
     </div>
   </div>
   <!-- subscribe to our form -->
@@ -141,8 +156,9 @@
     </div>
     <div class="sub-button">
       <input type="text" value="Email" id="subscibe">
-      <button type="submit" id="subscribe">Sign up</button>
-      <p>By submitting this form, I agree to the TourRadar T&Cs and Privacy policy.</p>
+      <button type="submit" id="subscribe">News letter</button>
+   
+      <p> <input type="checkbox" name="" id="">By submitting this form, I agree to the TourRadar T&Cs and Privacy policy.</p>
     </div>
   </div>
   <!-- adventure styles -->
