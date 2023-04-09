@@ -5,25 +5,25 @@
       "tour_image": "https://i0.wp.com/www.travelweek.ca/wp-content/uploads/2019/01/Explore-the-Islands-with-Hawai%E2%80%98i-Tourism-Canada.jpg?fit=673%2C427&ssl=1",
       "id": "1",
       "title": "Hawai",
-      "price": "Ksh. 8000",
+      "price": "Ksh. 250,000",
       "destination": "Hawai",
       "description": "Get to experience the best holiday<br>few slots remaining "
     },
     {
-      "tour_image": "https://images.thrillophilia.com/image/upload/s--vI0Q6HT9--/c_fill,g_auto,h_600,q_auto,w_975/f_auto,fl_strip_profile/v1/images/photos/000/082/497/original/1675261154_shutterstock_2148766633.jpg.jpg",
+      "tour_image": "https://d1l3wviaauwkfu.cloudfront.net/2021/11/Milaidhoo_Maldives_Batheli_By_The_Reef__10_-1920.jpg",
       "like": " ❤️",
       "id": "2",
       "title": "Maldives",
-      "price": 30,
+      "price": "Ksh. 300000",
       "destination": "Maldives",
-      "description": "Get to experience the best holiday<br>few slots remaining "
+      "description": "Get to experience the best in Maldives<br>The Maldive Islands are a series of coral atolls built up from the crowns of a submerged ancient volcanic    mountain range."
     },
     {
       "tour_image": "https://lp-cms-production.imgix.net/features/2017/09/dubai-marina-skyline-2c8f1708f2a1.jpg?auto=format&q=75&w=3840",
       "like": " ❤️",
       "id": "3",
       "title": "Dubai",
-      "price": "Ksh. 8500",
+      "price": "Ksh. 85,000",
       "destination": "Dubai",
       "description": "Get to experience the best holiday<br>few slots remaining "
     },
@@ -59,7 +59,6 @@
       "message": "happy with your services",
       "id": "gNTX7rj"
     },
-    
     {
       "name": "tripero",
       "number": "567654",
@@ -87,6 +86,13 @@
       "email": "test3@gmail.com",
       "message": "happy so far",
       "id": "lDjnyTy"
+    },
+    {
+      "name": "Faith Kilonzi",
+      "number": "763278923",
+      "email": "faith@gmail.com",
+      "message": "how much doues maldives tour cost",
+      "id": "sFK5TLU"
     }
   ]
 }
