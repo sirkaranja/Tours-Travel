@@ -16,7 +16,7 @@ Tripero is tour & travel mini web app , <br /> built using HTML, CSS, and JavaSc
 
 ![Tripero Desktop Demo](images/1.png "Desktop Demo")
 
-
+![Tripero Desktop Demo](images/2.png "Desktop Demo")
 ![Tripero about Demo](images/3.png "about demo")
 ![Tripero about Demo](images/4.png "about demo")
 ![Tripero about Demo](images/5.png "about demo")
